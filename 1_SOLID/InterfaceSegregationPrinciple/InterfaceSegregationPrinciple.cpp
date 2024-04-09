@@ -14,6 +14,10 @@ Explanation:
 
     Benefits of ISP: Following ISP leads to cleaner, more maintainable code. It reduces the risk of unintended consequences when modifying interfaces or implementing classes. It also encourages better design practices, such as favoring composition over inheritance.
 */
+
+//YAGNI - You ain't gonna need it 
+
+
 #include <iostream>
 using namespace std;
 //BAD CODE Example 
