@@ -36,7 +36,10 @@ struct HtmlElement
         return oss.str();
     }
 };
-
+//This is the builder interface or class that provides way to build the object 
+//here there is a tree like way building 
+// where there is a root element and sublements are composed inside a vector 
+//and we provide an api to build the whole structure or object !!! ( here that is add child )
 struct HtmlBuilder
 {
     HtmlElement root;
