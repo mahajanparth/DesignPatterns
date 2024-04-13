@@ -1,0 +1,20 @@
+
+Factory : A component responentible solely for the wholesale( not piecewise ) creation of object of differnt variations
+
+When to use Factory Design Pattern : 
+
+When the object creation creation is too convoluted. 
+In laymans term Meaning multiple variations of the objects are possible 
+What it overcomes:
+
+-- Construtor is not descriptive 
+- Name mandated by name of containing type 
+- Cannot overload with same sets of arguments with different names
+- Can turn into optional parameter Hell
+
+Object Creation( Non -Piece wise , unlike builder ) can be outsourced to 
+
+- A seperate function ( Factory Method )
+- That may exist in seperate Classes
+- Can create hierarchy of factories with Abstract factory 
+
