@@ -1,0 +1,17 @@
+
+Singleton : A component which is instantiated only once 
+
+For some components it is only makes sense to have one in the system 
+- Database repository 
+- Object factory 
+
+Where Singleton can be used :-
+Object Creation is very expensive and time taking 
+- We only do it once
+-We provide everyone with the same instance
+
+We want to prevent anyone creating additional copies
+
+Need to take care of lazy initialization and tread safety 
+
+
