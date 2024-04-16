@@ -1,0 +1,17 @@
+It is Easier To Copy an existing object to fully initialize a new one.
+In LayMans Terms : Its better to build an object from a complex blueprint rather than starting from scratch !!!
+
+
+1) Complecated objects aren't designed from scratch
+2) An existing( partially or fully constructed ) design is a Protype 
+3) We make a copy/ clone the Protype and customize it ( Requires deep copy support)
+4) We make cloning convenient 
+
+After Review Notes :
+- TO implement a Protype partially construct an object and store it somewhere
+- Clone the Protype
+    -implement your own deep copy functionality 
+    - serialize and deserialize   ( Very useful as it traverse the whole object graph )
+    - Customize the resulting instance 
+
+
