@@ -1,0 +1,6 @@
+Composite Design Pattern : Treating indivisual and aggregate objects uniformly 
+
+CDP is used to treat both single( scalar ) and Composite objects uniformly
+
+Eg : Foo and collection<Foo> have common API 
+
