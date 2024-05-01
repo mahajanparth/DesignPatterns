@@ -1,0 +1,13 @@
+Decorator : Adding Behaviour without altering the class itself 
+- want to augment an object additional functionality 
+- Do not want to rewrite or alter existing code (OCP)
+- Want to keep new functionality seperate ( SRP )
+- Need to be ablt to interact with existing structures 
+Two options: 
+ -Aggregate the Decorator object
+ -Inherit the decorated object 
+
+ Official definition : extends behaviour to existing objects 
+
+ 
+
