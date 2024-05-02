@@ -1,0 +1,8 @@
+Facade : Exposing Several Components through a single interface 
+
+Provides a simple, easy to use interface over a large and sophisticated body of code 
+
+Summary : 
+Build a Facade to provide a simplified api over set of classes 
+
+May wish to expose internals through the Facade ( This is purely based on the client and developer) // issue a warning 
