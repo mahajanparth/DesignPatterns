@@ -1,0 +1,18 @@
+Proxy : An interface for accessing a particular resource 
+
+It is like providing an interface to the client that is almost identical with additional properties of the original implementation 
+
+Proxy : A class that functions as an interface to a particular resource. That resource may be remote expensive to construct or may require logging or some other additional added functionality 
+
+
+Proxy and decorator might look very similar but :
+- proxy provides an identical interface ; decorator provides enhanced interface 
+- Decorator typically agregates what it is decorating ; proxy doesn't have to 
+- Proxy might not even be working with a materialized object 
+
+Recap : 
+A proxy has the same interface as the underlying object 
+To Create a proxy , simple and replicate the existing interface of an object 
+Add relevant functionality to the redifined member functions 
+
+Different proxies have completely different behaviours
